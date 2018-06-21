@@ -16,3 +16,21 @@ Ben 1 innehåller tre servon (liksom övriga fem ben) och skulle kunna adressera
 ben 2 skulle då bli 2:1, 2:2 och 2:3.
 ** Detta kan komma att ändras då det inte hjälper läsbarheten och vilket servo som avses. **
 
+Samtliga bens rörelser är samma, utom fram/tillbaka där ena sidan är spegelvänd mot den andra.
+Kontrollera om det går att invertera rörelsen till servona på dessa tre höfter, det skulle då vara 
+möjligt att skriva en funktion som tar argument av typen ben, led, läge eller något åt det hållet.
+
+OBSERVERA!!! Möjlighet finns att bygga de två sidorna som helt speglade, då skulle t.ex de servon som
+pekar framåt sköta lyft av lår osv. Roboten skulle då få ett naturligare rörelse-schema. Dock skulle
+det fortfarande gå att använda en funktion med argument.
+Dessa argument borde kunna fungera att skriva i en dictionary för samtliga ben, leder och positioner.
+
+OBS Något har blivit fel i nedanstående dict, den funkar inte. Däremot finns en fil som heter 'legs.py' som har en bra dict.
+position = {'leg1':{'hip':{'fw':200, 'straight':400, 'bw':600},{'thigh':{'up':200, 'straight':400, 'down':600},{'calf':{'in':200, 'straight':400, 'out':600}}
+			
+			
+					
+
+ex. flytta(ben, led, position)
+
+
