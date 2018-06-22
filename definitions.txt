@@ -9,8 +9,8 @@ Robotens ben räknas enligt nedan:
 	
 Alltså udda till vänster och jämna till höger
 
-Vänster sidas servon kontrolleras av kort nr 1 (i2c-adress: xx)
-Höger sidas servon kontrolleras av kort nr 2 (i2c-adress: yy)
+Vänster sidas servon kontrolleras av (vänster) kort nr 1 (i2c-adress: 40)
+Höger sidas servon kontrolleras av (höger) kort nr 2 (i2c-adress: 41)
 
 Ben 1 innehåller tre servon (liksom övriga fem ben) och skulle kunna adresseras 1:1, 1:2 och 1:3,
 ben 2 skulle då bli 2:1, 2:2 och 2:3.
