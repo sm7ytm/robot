@@ -1,5 +1,9 @@
 # Textfil för att specificera ben, servon, pinout m.m.
 
+***********Obsolete**********
+Det funkar inte att ange en dict, får se om det går att lösa annars skrotar vi dicten.
+
+
 Robotens ben räknas enligt nedan:
 
 
@@ -25,7 +29,9 @@ pekar framåt sköta lyft av lår osv. Roboten skulle då få ett naturligare r�
 det fortfarande gå att använda en funktion med argument.
 Dessa argument borde kunna fungera att skriva i en dictionary för samtliga ben, leder och positioner.
 
-OBS Något har blivit fel i nedanstående dict, den funkar inte. Däremot finns en fil som heter 'legs.py' som har en bra dict.
+OBS Något har blivit fel i nedanstående dict, den funkar inte. Däremot finns en fil som heter 'legs.py' som har 
+en bra dict.
+
 position = {'leg1':{'hip':{'fw':200, 'straight':400, 'bw':600},{'thigh':{'up':200, 'straight':400, 'down':600},{'calf':{'in':200, 'straight':400, 'out':600}}
 			
 			
