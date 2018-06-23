@@ -1,5 +1,4 @@
 from __future__ import division
-import time
 
 # Import the PCA9685 module.
 import Adafruit_PCA9685
