@@ -6,10 +6,10 @@ def move(side, sekvens):
     port, start, stop = styrkod[sekvens]
 
     
-    if (side == 'r'):
+    if (side == 'l'):
         left.set_pwm(port, start, stop)
     
-    elif (side == 'l'):
+    elif (side == 'r'):
         right.set_pwm(port, start, stop)
     
     else:
@@ -20,5 +20,7 @@ def move(side, sekvens):
 
 move('l', 'VFVC')
 move('l', 'VFVA')
+move('r', 'HFLC')
+move('r', 'HFLA')
 move('r', 'HFVC')
 move('r', 'HFVA')
