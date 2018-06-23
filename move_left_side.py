@@ -1,9 +1,9 @@
 from init import *
 from ben import *
 
-def move(side, sekvens):
+def move(sekvens):
 
-    port, start, stop = styrkod[sekvens]
+    side, port, start, stop = styrkod[sekvens]
 
     
     if (side == 'l'):
@@ -15,12 +15,18 @@ def move(side, sekvens):
     else:
         pass
     
-    time.sleep(1)
+    
 
 
-move('l', 'VFVC')
-move('l', 'VFVA')
-move('r', 'HFLC')
-move('r', 'HFLA')
-move('r', 'HFVC')
-move('r', 'HFVA')
+move('VFVC')
+time.sleep(1)
+move('VFVA')
+move('HFLC')
+time.sleep(1)
+move('HFLA')
+move('HFVC')
+time.sleep(1)
+move('HFVA')
+time.sleep(1)
+move('VTLB')
+move('VTBB')
