@@ -3,6 +3,11 @@
 ***********Obsolete**********
 Det funkar inte att ange en dict, får se om det går att lösa annars skrotar vi dicten.
 
+FEL!!!! Det funkar med dict och den heter numera ben.py, den innehåller dictionaryn styrkod och anger side, port, start
+och stop. Det sköts med en fyra bokstävers kombination som anropas med funktionen move och dessa argument.
+
+*************************************************************************************************************
+
 
 Robotens ben räknas enligt nedan:
 
